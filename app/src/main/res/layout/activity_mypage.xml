@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/profileimageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/default_profile" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/mypageNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="이름"
+            android:textSize="20sp" />
+
+        <View
+
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:background="#16000000" />
+
+
+        <Button
+            android:id="@+id/mypageEditButton"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background=" #00ff0000"
+            android:backgroundTint="#FFFFFF"
+            android:shadowColor="#FFFFFF"
+            android:text="회원 정보 수정"
+            android:textAlignment="textStart"
+            android:textColor="#000000" />
+
+        <View
+
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#16000000" />
+
+        <Button
+            android:id="@+id/mypostButton"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background=" #00ff0000"
+            android:backgroundTint="#FFFFFF"
+            android:text="내가 작성한 글"
+            android:textAlignment="viewStart"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/mycommentButton"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background=" #00ff0000"
+            android:backgroundTint="#FFFFFF"
+            android:text="내가 작성한 댓글"
+            android:textAlignment="viewStart"
+            android:textColor="#000000" />
+
+        <View
+
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#16000000" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background=" #00ff0000"
+            android:backgroundTint="#FFFFFF"
+            android:text="로그아웃"
+            android:textAlignment="viewStart"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/view_loader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

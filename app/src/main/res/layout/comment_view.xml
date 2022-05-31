@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_border"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:id="@+id/commentViewLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/commentImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/default_profile" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/commentNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:maxHeight="25dp"
+                android:paddingLeft="10dp"
+                android:text="(존재하지 않는 회원입니다.)"
+                android:textColor="@color/mr_dynamic_dialog_header_text_color_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/commentDeleteButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:background="?android:attr/panelBackground"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ic_dialog_close_light" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/commentText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:paddingTop="4dp"
+            android:text="TextView"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/commentTimeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:maxHeight="20dp"
+            android:minHeight="20dp"
+            android:text="TextView"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

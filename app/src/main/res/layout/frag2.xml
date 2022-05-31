@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/btn123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="105dp"
+        android:text="무" />
+
+    <Button
+        android:id="@+id/btn124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="105dp"
+        android:text="배추" />
+
+    <Button
+        android:id="@+id/btn125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="210dp"
+        android:text="양파" />
+
+    <Button
+        android:id="@+id/btn126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="210dp"
+        android:text="피망" />
+
+    <Button
+        android:id="@+id/btn127"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="315dp"
+        android:text="양배추" />
+
+    <Button
+        android:id="@+id/btn128"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="315dp"
+        android:text="대파" />
+
+    <Button
+        android:id="@+id/btn129"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="420dp"
+        android:text="사과" />
+
+    <Button
+        android:id="@+id/btn130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="420dp"
+        android:text="배" />
+
+    <Button
+        android:id="@+id/btn131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="525dp"
+        android:text="깻잎" />
+
+    <Button
+        android:id="@+id/btn132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="525dp"
+        android:text="감자" />
+
+
+
+</RelativeLayout>

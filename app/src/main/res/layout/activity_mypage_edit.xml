@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/myPageEditLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditScreenTextInputLayoutStyle"
+            app:boxCollapsedPaddingTop="0dp">
+
+            <EditText
+
+                android:id="@+id/mypageEmailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:clickable="false"
+                android:drawableEnd="@drawable/ic_lock_white_24dp"
+                android:drawablePadding="0dp"
+                android:focusable="false"
+                android:fontFamily="@font/calibri"
+                android:hint="이메일"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text="이메일"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditScreenTextInputLayoutStyle"
+            app:boxCollapsedPaddingTop="0dp">
+
+            <EditText
+
+                android:id="@+id/mypageNickNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:drawableEnd="@drawable/ic_name"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/calibri"
+                android:hint="닉네임"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditScreenTextInputLayoutStyle"
+            app:boxCollapsedPaddingTop="0dp">
+
+            <EditText
+
+                android:id="@+id/mypagePhoneNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:drawableEnd="@drawable/ic_lock_white_24dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/calibri"
+                android:hint="전화번호(숫자만)"
+                android:inputType="textUri|textLongMessage|text|numberDecimal"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/mypageInformationEditButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#CDDC39"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/calibri"
+            android:maxLines="1"
+            android:text="수정"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/view_loader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</LinearLayout>

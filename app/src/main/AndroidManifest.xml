@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aaa.aaa">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AAA"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".mypageEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mycommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".community_trade"
+            android:exported="false" />
+        <activity
+            android:name=".community_QnA"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BottomActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Signup" />
+        <activity android:name=".RadishActivity" />
+        <activity android:name=".NapaActivity" />
+        <activity android:name=".OnionActivity" />
+        <activity android:name=".GarActivity" />
+        <activity android:name=".CabbageActivity" />
+        <activity android:name=".PersimActivity" />
+        <activity android:name=".AppleActivity" />
+        <activity android:name=".PearActivity" />
+        <activity android:name=".CitrusActivity" />
+        <activity android:name=".PotatoActivity" />
+        <activity android:name=".AppletableActivity" />
+        <activity android:name=".RadishtableActivity" />
+        <activity android:name=".OniontableActivity" />
+        <activity android:name=".NapatableActivity" />
+        <activity android:name=".GartableActivity" />
+        <activity android:name=".CabbagetableActivity" />
+        <activity android:name=".PersimtableActivity" />
+        <activity android:name=".PersimtableActivity" />
+        <activity android:name=".CitrustableActivity" />
+        <activity android:name=".PotatotableActivity" />
+        <activity android:name=".PeartableActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".mypageActivity" />
+        <activity
+            android:name=".writeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".postActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".mypostActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.june0122.criminalintent.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="ypxl5waqqo" />
+    </application>
+
+</manifest>

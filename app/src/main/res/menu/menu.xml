@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_camera"
+        android:enabled="true"
+        android:icon="@drawable/item_camera"
+        android:title="카메라"/>
+
+    <item
+        android:id="@+id/item_price"
+        android:enabled="true"
+        android:icon="@drawable/item_price"
+        android:title="시세예측"/>
+
+    <item
+        android:id="@+id/item_comu"
+        android:enabled="true"
+        android:icon="@drawable/item_comunity"
+        android:title="커뮤니티"/>
+
+    <item
+        android:id="@+id/item_gps"
+        android:enabled="true"
+        android:icon="@drawable/item_gps"
+        android:title="위치"/>
+</menu>

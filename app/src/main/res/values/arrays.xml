@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>카테고리를 선택하세요.</item>
+        <item>질문</item>
+        <item>홍보·판매</item>
+        <item>나눔</item>
+        <item>정보</item>
+        <item>레시피</item>
+
+    </string-array>
+</resources>

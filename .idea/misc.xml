@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Study/Agriculturalproducts2/app/src/main/res/xml/file_paths.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/AAA/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1575" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/AAA/app/src/main/res/drawable/splash_base.xml" value="0.178" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/AAA/app/src/main/res/layout/activity_main.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/A/AndroidStudioProjects/AAA/app/src/main/res/layout/activity_signup.xml" value="0.2980072463768116" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/drawable/buttonshapewhitebg.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/drawable/ic_email_white_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/drawable/ic_lock_white_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/drawable/ic_name.xml" value="0.179" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/drawable/item_comunity.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/drawable/splash_base.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/layout/activity_bottom.xml" value="0.10258358662613981" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/layout/activity_potato.xml" value="0.10258358662613981" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/layout/activity_signup2.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/layout/frag1.xml" value="0.33242753623188404" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/layout/frag4.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/layout/sign2.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/menu/menu.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/A/Desktop/AAA/AAA/app/src/main/res/xml/file_paths.xml" value="0.10258358662613981" />
+        <entry key="..\:/Users/A/Desktop/POI/Golden-Apple-master/app/src/main/res/layout/activity_citrus.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/POI/Golden-Apple-master/app/src/main/res/layout/activity_gar.xml" value="0.1358695652173913" />
+        <entry key="..\:/Users/A/Desktop/POI/Golden-Apple-master/app/src/main/res/layout/activity_gartable.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/POI/Golden-Apple-master/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/POI/Golden-Apple-master/app/src/main/res/layout/activity_persim.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/POI/Golden-Apple-master/app/src/main/res/layout/activity_web.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/POI/Golden-Apple-master/app/src/main/res/layout/frag2.xml" value="0.22" />
+        <entry key="..\:/Users/A/Desktop/POI/Golden-Apple-master/app/src/main/res/layout/frag4.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/POI/Golden-Apple-master/app/src/main/res/layout/fragment_web_view.xml" value="0.1" />
+        <entry key="..\:/Users/WSY/Documents/WSY/Golden-Apple/app/src/main/res/layout/activity_community_qn.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/WSY/Documents/WSY/Golden-Apple/app/src/main/res/layout/activity_mypage.xml" value="0.176" />
+        <entry key="..\:/Users/WSY/Documents/WSY/Golden-Apple/app/src/main/res/layout/activity_write.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/WSY/Documents/WSY/Golden-Apple/app/src/main/res/layout/community_list_view.xml" value="0.4" />
+        <entry key="..\:/Users/WSY/Documents/WSY/Golden-Apple/app/src/main/res/layout/view_loader.xml" value="0.1" />
+        <entry key="..\:/Users/WSY/Documents/WSY/Golden-Apple/app/src/main/res/menu/community_menu.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/WSY/Documents/WSY/Golden-Apple/app/src/main/res/menu/menu.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/activity_community_donation.xml" value="0.1" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/activity_community_information.xml" value="0.1" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/activity_community_qn.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/activity_community_recipe.xml" value="0.1" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/activity_community_trade.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/activity_mypage.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/activity_post.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/activity_postpage.xml" value="0.30935251798561153" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/activity_write.xml" value="0.18" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/comment_view.xml" value="0.5" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/community_list_view.xml" value="0.25" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/frag3.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/view_contents_item.xml" value="0.184375" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/view_post_edittext.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/user/Documents/WSY/Agriculturalproducts/app/src/main/res/layout/view_post_imageview.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/activity_community_information.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/activity_community_qn.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/activity_mypage.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/activity_mypage_edit.xml" value="0.1" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/activity_mypage_edit2.xml" value="0.34692028985507245" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/activity_mypost.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/activity_postpage.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/activity_signup.xml" value="0.34692028985507245" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/activity_write.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/comment_view.xml" value="0.5" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/image_list_view.xml" value="0.25" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/mycomment_view.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/sign2.xml" value="0.33" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/layout/view_post_edittext.xml" value="0.3188405797101449" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/menu/community_menu.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/menu/community_write.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/menu/default_menu.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/menu/default_post_menu.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Documents/WSY/School Project/app/src/main/res/menu/menu.xml" value="0.1875" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/drawable/box_login.xml" value="0.1195" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/drawable/close_button.xml" value="0.1195" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/drawable/close_buttonxml.xml" value="0.2275" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1195" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/drawable/ic_name.xml" value="0.1195" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/drawable/item_camera.xml" value="0.1195" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/drawable/item_comunity.xml" value="0.1195" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/drawable/write_circle.xml" value="0.1235" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_bottom.xml" value="0.1125" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_cabbage.xml" value="0.1125" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_login.xml" value="0.1140625" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_main.xml" value="0.15364583333333334" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_mypage.xml" value="0.176" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_persimtable.xml" value="0.17239583333333333" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_post.xml" value="0.4" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_post2.xml" value="0.15416666666666667" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_radishtable.xml" value="0.1" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/activity_write.xml" value="0.264" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/community_menu.xml" value="0.1" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/content_post.xml" value="0.15416666666666667" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/frag1.xml" value="0.1125" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/frag3.xml" value="0.1" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/frag4.xml" value="0.10989583333333333" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/fragment_first.xml" value="0.15416666666666667" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/sign2.xml" value="0.2" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/spinner_category.xml" value="0.1125" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/layout/write_toolbar.xml" value="0.1125" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/menu/community_menu.xml" value="0.1140625" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/menu/community_wriet.xml" value="0.2" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/menu/community_write.xml" value="0.25364583333333335" />
+        <entry key="..\:/project/Agriculturalproducts/app/src/main/res/menu/write_toolbar.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
