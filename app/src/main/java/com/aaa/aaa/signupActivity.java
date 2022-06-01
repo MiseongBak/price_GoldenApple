@@ -23,7 +23,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 
-public class Signup extends AppCompatActivity {
+public class signupActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     TextView pwcheckText;
     EditText nickname, id, pw, pwcheck, email, phone_number;
@@ -113,7 +113,7 @@ public class Signup extends AppCompatActivity {
             if (password.equals(passwordtest) && phone_number.matches("[+-]?\\d*(\\.\\d+)?") == true && password.length() > 6) {
                 //파이어베이스에 신규계정 등록하기
                 loaderLayout.setVisibility(View.VISIBLE);
-                mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(Signup.this, new OnCompleteListener<AuthResult>() {
+                mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(signupActivity.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         //가입 성공시
