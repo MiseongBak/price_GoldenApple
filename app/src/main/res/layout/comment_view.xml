@@ -38,7 +38,6 @@
                 android:maxHeight="25dp"
                 android:paddingLeft="10dp"
                 android:text="(존재하지 않는 회원입니다.)"
-                android:textColor="@color/mr_dynamic_dialog_header_text_color_light"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 

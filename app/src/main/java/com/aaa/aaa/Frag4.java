@@ -6,6 +6,8 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.GeolocationPermissions;
+import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
@@ -52,6 +54,8 @@ public class Frag4 extends Fragment {
         return fragment;
     }
 
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,6 +63,7 @@ public class Frag4 extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
     }
 
     @Override
@@ -80,6 +85,15 @@ public class Frag4 extends Fragment {
         WebView webView = view.findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
+
+        webView.setWebChromeClient(new WebChromeClient(){
+            @Override
+            public void onGeolocationPermissionsShowPrompt(String origin, GeolocationPermissions.Callback callback) {
+                super.onGeolocationPermissionsShowPrompt(origin, callback);
+                callback.invoke(origin, true, false);
+            }
+        });
+
         webView.loadUrl("https://www.daum.net");
         webView.setOnKeyListener(new View.OnKeyListener(){
             @Override
