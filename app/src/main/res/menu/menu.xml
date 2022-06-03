@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/item_camera"
+        android:id="@+id/item_glass"
         android:enabled="true"
-        android:icon="@drawable/item_camera"
-        android:title="카메라"/>
+        android:icon="@drawable/item_glass"
+        android:title="품질판별"/>
 
     <item
-        android:id="@+id/item_price"
+        android:id="@+id/item_money"
         android:enabled="true"
-        android:icon="@drawable/item_price"
+        android:icon="@drawable/item_money"
         android:title="시세예측"/>
 
     <item
@@ -19,8 +19,8 @@
         android:title="커뮤니티"/>
 
     <item
-        android:id="@+id/item_gps"
+        android:id="@+id/item_explore"
         android:enabled="true"
-        android:icon="@drawable/item_gps"
-        android:title="위치"/>
+        android:icon="@drawable/item_explore"
+        android:title="웹&amp;판매처"/>
 </menu>

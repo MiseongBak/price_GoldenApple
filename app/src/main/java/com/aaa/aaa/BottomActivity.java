@@ -37,11 +37,11 @@ public class BottomActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
-                    case R.id.item_camera:
+                    case R.id.item_glass:
                         setFrag(0);
                         break;
 
-                    case R.id.item_price:
+                    case R.id.item_money:
                         setFrag(1);
                         break;
 
@@ -49,7 +49,7 @@ public class BottomActivity extends AppCompatActivity {
                         setFrag(3);
                         break;
 
-                    case R.id.item_gps:
+                    case R.id.item_explore:
                         setFrag(4);
                         break;
                 }

@@ -13,6 +13,7 @@ import android.webkit.WebViewClient;
 import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -119,5 +120,14 @@ public class Frag4 extends Fragment {
 
     }
 
+    //액션바 타이틀 설정 함수
+    @Override
+    public void onResume() {
+        super.onResume();
+        FragmentActivity activity = getActivity();
+        if (activity != null) {
+            ((BottomActivity) activity).setActionBarTitle("웹 검색");
+        }
+    }
 
 }
